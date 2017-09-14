@@ -32,15 +32,15 @@ let s:white             = { "gui": "#EAE8E7", "cterm": "231" }
 
 let s:gray              = { "gui": "#979391", "cterm": "247" }
 
-let s:green             = { "gui": "#30B536", "cterm": "34"  }
+let s:dark_blue             = { "gui": "#30B536", "cterm": "61"  }
 let s:pink              = { "gui": "#D36DD3", "cterm": "170" }
-let s:orange            = { "gui": "#FC923F", "cterm": "208" }
+let s:orange            = { "gui": "#FC923F", "cterm": "203" }
 let s:purple            = { "gui": "#B586E7", "cterm": "141" }
-let s:blue              = { "gui": "#255DE7", "cterm": "27"  }
-let s:ultramarine       = { "gui": "#229EC0", "cterm": "38"  }
+let s:blue              = { "gui": "#255DE7", "cterm": "110"  }
+let s:ultramarine       = { "gui": "#229EC0", "cterm": "110"  }
 let s:skyblue           = { "gui": "#34D0F1", "cterm": "45"  }
 
-let s:white_pink            = { "gui": "#FEF7FE", "cterm": "231" }
+let s:white_pink            = { "gui": "#FEF7FE", "cterm": "225" }
 let s:white_pink_deep       = { "gui": "#FEF0FE", "cterm": "255" }
 let s:black_green           = { "gui": "#053703", "cterm": "235" }
 let s:black_green_bright    = { "gui": "#074005", "cterm": "239" }
@@ -56,14 +56,14 @@ let s:dark_green        = { "gui": "#09570A", "cterm": "22"  }
 let s:dark_yellow       = { "gui": "#BC922B", "cterm": "3"   }
 let s:dark_pink         = { "gui": "#B365A2", "cterm": "133" }
 "let s:dark_brown        = { "gui": "#845D18", "cterm": "94"  }
-let s:dark_red          = { "gui": "#D9372D", "cterm": "160" }
+let s:dark_red          = { "gui": "#D9372D", "cterm": "202" }
 
 " Color Alias
 if &background == "light"
     let s:norm          = s:black
     let s:bg            = s:white_pink
     let s:bg_subtle     = s:white_pink_deep
-    let s:green_fg      = s:green
+    let s:_fg      = s:dark_blue
     let s:yellow_fg     = s:dark_yellow
     let s:pink_fg       = s:dark_pink
     let s:blue_fg       = s:ultramarine
@@ -86,7 +86,7 @@ if &background == "dark"
     let s:blue_fg       = s:skyblue
     let s:red_fg        = s:light_red
     let s:gray_bg       = s:dark_gray
-    let s:green_bg      = s:green
+    let s:green_bg      = s:dark_blue
     let s:yellow_bg     = s:dark_yellow
     let s:pink_bg       = s:pink
     let s:blue_bg       = s:ultramarine
