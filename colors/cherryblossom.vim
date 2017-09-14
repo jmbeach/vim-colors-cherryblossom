@@ -46,14 +46,14 @@ let s:black_green           = { "gui": "#053703", "cterm": "235" }
 let s:black_green_bright    = { "gui": "#074005", "cterm": "239" }
 
 let s:light_gray        = { "gui": "#E1DCDA", "cterm": "253" }
-let s:light_green       = { "gui": "#B7EFA5", "cterm": "157" }
+let s:light_green       = { "gui": "#B7EFA5", "cterm": "61" }
 let s:light_pink        = { "gui": "#FEDCFE", "cterm": "225" }
 let s:light_yellow      = { "gui": "#EDE682", "cterm": "228" }
 let s:light_red         = { "gui": "#EB5A7C", "cterm": "204" }
 
 let s:dark_gray         = { "gui": "#4D4A48", "cterm": "241" }
 let s:dark_green        = { "gui": "#09570A", "cterm": "22"  }
-let s:dark_yellow       = { "gui": "#BC922B", "cterm": "3"   }
+let s:dark_yellow       = { "gui": "#BC922B", "cterm": "202"   }
 let s:dark_pink         = { "gui": "#B365A2", "cterm": "133" }
 "let s:dark_brown        = { "gui": "#845D18", "cterm": "94"  }
 let s:dark_red          = { "gui": "#D9372D", "cterm": "202" }
@@ -68,6 +68,7 @@ if &background == "light"
     let s:pink_fg       = s:dark_pink
     let s:blue_fg       = s:ultramarine
     let s:red_fg        = s:dark_red
+    let s:green_fg      = s:light_green
     let s:gray_bg       = s:light_gray
     let s:green_bg      = s:light_green
     let s:yellow_bg     = s:light_yellow
